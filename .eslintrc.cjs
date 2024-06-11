@@ -10,11 +10,11 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
-    'react/react-in-jsx-scope': true,
-    'react/jsx-uses-react': true,
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
-    ]
+    ],
   },
 }
